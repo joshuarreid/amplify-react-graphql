@@ -1,24 +1,7 @@
 {
-  "api": {
-    "amplifyreactgraphql": {
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "additionalAuthenticationProviders": [],
-          "defaultAuthentication": {
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
-            },
-            "authenticationType": "API_KEY"
-          }
-        }
-      },
-      "providerPlugin": "awscloudformation",
-      "service": "AppSync"
-    }
-  },
+  "api": {},
   "auth": {
-    "amplifyreactgraphql47a03240": {
+    "amplifyreactgraphqld3c1ea52": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -43,11 +26,5 @@
       "service": "Cognito"
     }
   },
-  "storage": {
-    "s3360419fa": {
-      "dependsOn": [],
-      "providerPlugin": "awscloudformation",
-      "service": "S3"
-    }
-  }
+  "storage": {}
 }
